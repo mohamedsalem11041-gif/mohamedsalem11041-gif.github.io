@@ -1,0 +1,20 @@
+# robots.txt for mohamedsalem11041-gif.github.io
+# https://www.robotstxt.org/
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow admin and login pages
+Disallow: /admin
+Disallow: /admin/*
+Disallow: /login
+
+# Disallow e-card (private)
+Disallow: /e-card
+
+# Sitemap location
+Sitemap: https://mohamedsalem11041-gif.github.io/sitemap.xml
+
+# Crawl-delay (optional, be nice to servers)
+Crawl-delay: 1
